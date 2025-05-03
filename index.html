@@ -1,1 +1,143 @@
-444
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Begudalx. Inc</title>
+  <style>
+    :root {
+      --bg-gradient: linear-gradient(135deg, #6a0dad, #ff6fa7);
+      --accent: #ffd2eb;
+      --text-light: #ffe9f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-gradient);
+      color: white;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 30px 20px;
+      text-align: center;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: var(--text-light);
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1.4s ease-in;
+    }
+
+    h2 {
+      border-left: 5px solid white;
+      padding-left: 15px;
+      margin-bottom: 15px;
+      color: var(--text-light);
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      animation: fadeIn 1.6s ease-in;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      section {
+        padding: 30px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Begudalx. Inc</h1>
+    <p>Создаём будущее технологий</p>
+  </header>
+
+  <section>
+    <h2>Наша миссия</h2>
+    <p>
+      Наша цель — разрабатывать высококачественное, инновационное программное обеспечение, которое решает реальные задачи в различных отраслях. Мы гордимся тем, что предоставляем исключительные продукты с акцентом на производительность, безопасность и пользовательский опыт.
+    </p>
+  </section>
+
+  <section>
+    <h2>Что мы делаем</h2>
+    <ul>
+      <li>Веб-разработка</li>
+      <li>Разработка системного ПО</li>
+      <li>Проекты на основе ИИ и автоматизации</li>
+      <li>Индивидуальные программные решения</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Используемые технологии</h2>
+    <ul>
+      <li>Python</li>
+      <li>FastAPI</li>
+      <li>SQLite</li>
+      <li>Интеграция с ИИ</li>
+      <li>Блокчейн и криптовалютные решения</li>
+      <li>И многое другое…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Свяжитесь с нами</h2>
+    <p>
+      Не стесняйтесь исследовать наши репозитории, вносить свой вклад или <a href="mailto:beludalgx@itsystemshelp.ru">связаться с нами для сотрудничества</a>!
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Begudalx. Inc — Все права защищены.
+  </footer>
+</body>
+</html>
